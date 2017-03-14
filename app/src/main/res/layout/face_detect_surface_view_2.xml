@@ -1,0 +1,346 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fd_activity_surface_view" />
+
+    <TextView
+        android:id="@+id/method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekbars"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:text="method"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:id="@+id/seekbars"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <SeekBar
+            android:id="@+id/methodSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:paddingLeft="5dip"
+            android:paddingRight="10dip"
+            android:progress="500" >
+        </SeekBar>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRecreateClick"
+        android:text="Recreate"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/method"
+        android:layout_alignStart="@+id/method" />
+
+    <TextView
+        android:text="TOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTop"
+        tools:alpha="0.5"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="121dp"
+        android:layout_above="@+id/textLeft"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="LEFT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLeft"
+        tools:alpha="0.5"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignBaseline="@+id/textRight"
+        android:layout_alignBottom="@+id/textRight"
+        android:layout_toRightOf="@+id/method"
+        android:layout_toEndOf="@+id/method" />
+
+    <TextView
+        android:text="RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textRight"
+        tools:alpha="0.5"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp" />
+
+    <TextView
+        android:text="DOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDown"
+        tools:alpha="0.5"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/textRight"
+        android:layout_alignLeft="@+id/textTop"
+        android:layout_alignStart="@+id/textTop"
+        android:layout_marginTop="93dp" />
+
+    <TableLayout
+        android:layout_width="250dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="250dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/a_0"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:background="@android:color/background_light"
+                android:alpha="0.2" />
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/a_1"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/a_2"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/a_3"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/a_4"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/b_0"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/b_1"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/b_2"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/b_3"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/b_4"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/c_0"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/c_1"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/holo_orange_dark"
+                android:id="@+id/c_2"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/c_3"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/c_4"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/d_0"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/d_1"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/d_2"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/d_3"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/d_4"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/e_0"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/e_1"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/e_2"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/e_3"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+            <ImageView
+                android:background="@android:color/background_light"
+                android:id="@+id/e_4"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="4dp"
+                android:alpha="0.2"/>
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
