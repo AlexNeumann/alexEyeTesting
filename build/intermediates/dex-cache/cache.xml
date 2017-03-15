@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_49f04c80a923c59e7dd926386cbe8303bf42243a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_72b153ba0154a00ee71850bf5533a9a0fab099ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_8509447f8bf20d4f4fcfeb3e72629a78f5e88cc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_4977dc4ae78fa11ae9b965b06b82b05bf18df05b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_c0f01272b088ec300f78f71f4ba32aa3e09d8ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_461c6e24ea1b18d9e85e104bddcb78557e667a63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_5cd81ab6c7e60ff808ab6d53bfd817b4313e658d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_7eb8ec65110415c6c569a88f7d901eccc82eca1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_4c7e94742ab39bbd3b3404192934b68a998cd41c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_c7b82cd4022203e1e26dad8263c962d731611b7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_5d91ed448bd81bdacf080ca85f8e1a46a5ad5fce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_b80ebdc7d864ca655ffa9a603f4a9e27b2a890d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\alexEyeTesting\openCVLibrary320\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f535e8fca96bd2733ac54b9fc8fff29a79b3b64">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\alexEyeTesting-openCVLibrary320-unspecified_68ff62881339ed5feac40036e5aec9a6c9091991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_f142fee042787bbabba7e44342b8c9b444b87ab0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_51ca5b5c64fc27f604ebac4b80a5f12daeacc56e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_0340ac3351fa5eb42ef83959b8465b2a76d25b53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\AlexOpenCV\openCVLibrary320\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f535e8fca96bd2733ac54b9fc8fff29a79b3b64">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\AlexOpenCV-openCVLibrary320-unspecified_ab68638fe480caeca358615ddba1c8853781d1f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_acce3ddc336156dccdddd85b3a9de8790fd186d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_37d891fc77672cc6663d6b651d427aa249b91902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\PhantomNew\AndroidStudioProjects\AlexOpenCV\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_a19929fd12b6ab37e616cb1cc9bfea074ce895ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\alexEyeTesting\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="D:\workspace\alexEyeTesting\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_984cbbcca7212291fbfb2cd00a0f4f0e78bdaf54.jar" />
+    </item>
+
+</items>

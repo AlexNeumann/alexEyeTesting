@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/workspace/alexEyeTesting/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\PhantomNew\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\workspace\\alexEyeTesting\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\PhantomNew\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\workspace\\alexEyeTesting\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-ndk-r14-windows-x86_64/android-ndk-r14/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-ndk-r14-windows-x86_64/android-ndk-r14/platforms/android-21/arch-arm64  -Dnative_lib_EXPORTS -isystem D:\\android-ndk-r14-windows-x86_64\\android-ndk-r14\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\android-ndk-r14-windows-x86_64\\android-ndk-r14\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\android-ndk-r14-windows-x86_64\\android-ndk-r14\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/workspace/alexEyeTesting/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/workspace/alexEyeTesting/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "D:/workspace/alexEyeTesting/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "2702720465"
+		}
+	},
+	"toolchains" : 
+	{
+		"2702720465" : 
+		{
+			"cCompilerExecutable" : "D:/android-ndk-r14-windows-x86_64/android-ndk-r14/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-ndk-r14-windows-x86_64/android-ndk-r14/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

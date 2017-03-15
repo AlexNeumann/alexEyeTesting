@@ -1,24 +1,4 @@
-*.properties
-build.gradle
-gradlew
-gradlew.bat
-import-summary.txt
-OpenCV Sample - face-detection.iml
-OpenCVEyeDetection.iml
-settings.gradle
+
 local.properties
-/build
-/.gradle
-/.idea
-*.apk
-*.ap_
-*.class
-*.iml
-*.jar
-/.externalNativeBuild
-jniLibs
-lint.xml
-.externalNativeBuild
-build
 /app/src/main/jni/Android.mk
 /app/src/main/jniLibs
